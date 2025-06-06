@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: "Archivo", sans-serif;
+    background-color: #ECECEC;
+}
+
+.archivo {
+    font-family: "Archivo", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #121214;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header .content {
+    max-width: 736px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+header .content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+header .content p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+form {
+    background: #FAFAFC;
+    padding: 64px;
+    width: 736px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input,
+textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #E6E6F0;
+    border-radius: 4px;
+    background-color: #FAFAFC;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 15px 40px;
+    font-weight: 600;
+    background-color: #d81f1f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #DB1B1B;
+}
+
+.form-footer {
+    border-top: 1px solid #FAFAFC;
+    background-color: #F0F0F4;
+    margin: 0 -64px -64px;
+    padding: 30px 64px;
+}
+
+.lineform {
+    border: 1px solid #E6E6F0;
+    border-bottom: 0;
+    margin: 16px 0;
+}
